@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid; 
+    height: auto;
+    background-color: rgb(163, 185, 61);
+    grid-row-gap:9px;
+    grid-column-gap: 9px;
+}
+
+.item{
+    background-color: aqua;
+    border: 2px solid red;
+    display: inline; 
+}

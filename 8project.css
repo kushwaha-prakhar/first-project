@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Head{
+    height: 10vh;
+    background-color: black;
+    color:white;
+}
+
+.Head ul li{
+    display: inline;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    /* flex-direction:column; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    background-color:aquamarine;
+    height: 50vh;
+    align-content: center;
+}
+
+.box1{
+    height: 45vh;
+    width: 100vh;
+    background-color: #4031a5;
+    border: 2px solid red;
+    position: relative;
+    top: 2px;
+}
+
+.box1 h2{
+    padding:2vh;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 p{
+   font-size: 15px;
+    line-height: 30px;
+    color: #c0c02b;
+    padding: 2vh;
+}
+
+.box2{
+    height: 45vh;
+    width: 100vh;
+    background-color: #b6553d;
+    border: 2px solid red;
+    position: relative;
+    top: 2px;
+}
+
+.box2 h2{
+    padding:2vh;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 p{
+   font-size: 15px;
+    line-height: 30px;
+    color: #c0c02b;
+    padding: 2vh;
+}
+
+/* .box3{
+     height: 234px;
+    width: 345px;
+    background-color: #8e3db6;
+    float: right;
+} */
+
+/* .box4{
+     height: 234px;
+    width: 345px;
+    background-color: #cf75b0;
+    float: right;
+} */

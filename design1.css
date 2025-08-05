@@ -1,0 +1,37 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: black;
+            color: white;
+            height: 20vh;
+            font-size: 3vh;
+            display: inline-block;
+        }
+
+        .left {
+            background-color: red;
+            width: 50%;
+            height: 80vh;
+            display: inline-block;
+        }
+
+        .right {
+            background-color: green;
+            display: inline-block;
+            width: 50%;
+            height: 80vh;
+        }
+        .down1{
+            padding: 5vh;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #000000;
+            color: white;
+        }
+        .down2{
+            color: yellow;
+            text-align: center;
+            padding-top: 3vh;
+        }

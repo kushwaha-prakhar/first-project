@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(85, 77, 77);
+}
+
+.navbar {
+  /* height: 10vh; */
+  background-color: black;
+  color: white;
+}
+
+.navbar ul {
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 0vw 3vw;
+  font-size: 3vw;
+}
+
+.container {
+  background-color: rgb(90, 85, 26);
+  background-image: url("./image/image/backgroundimg2.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover; 
+  background-position: center;
+  
+  /* height: 80vh; */
+  padding: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  order: 3;
+}
+
+.left {
+  background-color: rgb(207, 193, 116);
+  border: 2px solid red;
+  border-radius: 2vh;
+  /* height: 60vh; */
+  width: 45vw;
+  margin: auto;
+  padding: 10.vh;
+}
+
+.left h2 {
+  padding: 10px;
+  font-style: italic;
+  text-decoration: underline red;
+  /* color: white; */
+}
+
+.right {
+  background-color: rgb(203, 207, 116);
+  border: 2px solid red;
+  border-radius: 10px;
+  /* height: 60vh; */
+  width: 45vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.right h2 {
+  padding: 10px;
+  font-style: italic;
+  text-decoration: underline red;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 3vw;
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  order: 2;
+}
