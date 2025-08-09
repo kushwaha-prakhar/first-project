@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("image/image/backgroundimg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.grid-item:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flex-item {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
