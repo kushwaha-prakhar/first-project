@@ -1,0 +1,69 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: white;
+    }
+
+    .hero {
+        background-image: url('https://via.placeholder.com/1600x700');
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin: 0;
+        transform: scale(1);
+        transition: transform 0.3s;
+    }
+
+    .hero h1:hover {
+        transform: scale(1.1) rotate(-2deg);
+    }
+
+    .services {
+        padding: 40px;
+        background: #222;
+    }
+
+    .services h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .grid-item {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+
+    .grid-item:hover {
+        transform: scale(1.05) rotate(3deg);
+    }
+
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #000;
+        text-transform: uppercase;
+    }
