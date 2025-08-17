@@ -1,0 +1,67 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: black;                 
+      background-color: lightblue;  
+    }
+
+    header {
+      display: flex;             
+      justify-content: space-between;
+      align-items: center;
+      background-color: darkblue;
+      color: white;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;              
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      height: 150px;    
+      background-color: skyblue;  
+      animation: fadeIn 3s; 
+    }
+
+    .grid {
+      display: grid;           
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .box {
+      background-color: white;
+      border: 1px solid black;
+      height: 100px;              
+      width: 100%;           
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: float 3s infinite; 
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: darkblue;
+      color: white;
+    }
