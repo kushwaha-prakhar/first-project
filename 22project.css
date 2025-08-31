@@ -88,7 +88,11 @@ body {
   border: 1px solid #eee;
 }
 
-/* hero */
+.frontface {
+  margin: 30px;
+  justify-content: center;
+}
+
 .hero {
   background: linear-gradient(180deg, #f9f9f9, #fff);
   padding: 48px 16px;
@@ -107,9 +111,7 @@ body {
   margin: 0 0 10px;
 }
 
-/* posts */
 .posts-wrap {
-  max-width: var(--maxw);
   margin: 28px auto;
   padding: 0 16px;
 }
@@ -150,7 +152,6 @@ body {
   font-weight: 600;
 }
 
-/* pagination */
 .pagination {
   display: flex;
   gap: 8px;
@@ -164,3 +165,89 @@ body {
   background: #ffffff;
 }
 
+.site-footer {
+  border-top: 1px solid #eee;
+  background: #fafafa;
+  padding: 28px 16px;
+}
+.footer-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.newsletter,
+.books {
+  flex: 1 1 280px;
+}
+.newsletter form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.newsletter input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 0;
+  color: white;
+}
+
+
+.posts-wrap1 {
+  margin: 28px auto;
+  padding: 0 16px;
+}
+.posts-wrap1 h2 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.posts-grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.post-card1 {
+  background-image: url("image/image/image3.jpeg");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-card2 {
+  background-image: url("image/image/image2.jpeg");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-card3 {
+  background-image: url("image/image/image1.jpeg");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumb1 {
+
+  height: 140px;
+  background: linear-gradient(90deg, #ddd #eee);
+  border-radius: 6px;
+}
