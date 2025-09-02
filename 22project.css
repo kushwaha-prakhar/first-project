@@ -251,3 +251,71 @@ body {
   background: linear-gradient(90deg, #ddd #eee);
   border-radius: 6px;
 }
+
+.foothead {
+  border-radius: 8px;
+  border: 1px solid #aa9494;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footimg2{
+  padding-top: 50px;
+}
+
+.footerpara1{
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.footerlink{
+  padding-left: 100px;
+  
+}
+
+.footerlink a {
+  padding-left: 50px;
+  text-decoration: none;
+  
+}
+
+.footerlink a :hover {
+  color: yellow;
+}
+
+.mainform{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.footerfootbody{
+  background-color: rgba(77, 144, 144, 0.585);
+  height: 150px;
+}
+
+.footerfootbodylink{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.footerfootbodylink a{
+  text-decoration: none;
+  padding-left: 100px;
+
+}
+
+.footerfoot1{
+  display: flex;
+  justify-content: right;
+  padding-top: 20px;
+  padding-right: 200px;
+
+}
